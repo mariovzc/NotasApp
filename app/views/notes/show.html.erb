@@ -1,0 +1,7 @@
+
+<h1><%=@note.titulo%></h1>
+<p><%=@note.contenido%></p>
+<span><%= @note.privado%></span>
+<%=link_to "All notes", notes_path%>
+<%=link_to "Edit", edit_note_path(@note)%>
+<%=link_to "DElete", note_path(@note),method: :delete, data: {confirm: "Are you sure?"}%>
