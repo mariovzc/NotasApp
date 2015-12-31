@@ -4,9 +4,9 @@
     <p>
       NoteBook online 100% en Rails
     </p>
-    <button type="button" name="button">
-      <%=link_to "Crear Cuenta", new_user_registration_path%>
-    </button>
+
+      <%=link_to '<button type="button" name="button">Crear Cuenta</button>'.html_safe, new_user_registration_path%>
+
   </div>
 </div>
 <div id='testimonial'>
@@ -37,7 +37,7 @@
   <div class='wrapper'>
     <h2>Enserio!</h2>
     <p>Crea una Cuenta.. es Gratis!</p>
-    <button type="button" name="button"><%=link_to "dame cliiick!!!", new_user_registration_path%></button>
+    <%=link_to '<button type="button" name="button">Dame cliiick!!!</button>'.html_safe, new_user_registration_path%>
   </div>
 </div>
 <footer>

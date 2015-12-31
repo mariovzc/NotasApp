@@ -22,7 +22,9 @@
   margin: 0 0 2.5rem 0;
   color: rgba(250, 250, 250, 0.5);
 }
-
+#banner button{
+  color: white;
+}
 #testimonial {
   text-align: center;
   font-size: 1.5rem;
@@ -78,4 +80,7 @@
   font-size: 1.25rem;
   margin: 0 0 2.5rem 0;
   color: #a7a8a8;
+}
+#bottom_cta button{
+  color: #fff;
 }
