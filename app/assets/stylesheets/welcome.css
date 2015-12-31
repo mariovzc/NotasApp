@@ -1,0 +1,81 @@
+#banner {
+  background-image: url("welcome_banner_image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 100%;
+  min-height: 500px;
+  display: table;
+}
+#banner .banner_content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+#banner .banner_content h1 {
+  color: white;
+  font-size: 3.5rem;
+  margin: 0;
+}
+#banner .banner_content p {
+  font-size: 1.5rem;
+  margin: 0 0 2.5rem 0;
+  color: rgba(250, 250, 250, 0.5);
+}
+
+#testimonial {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #afb0b0;
+  padding: 3.5rem 0;
+}
+#testimonial .quote {
+  margin: 0 0 .5rem 0;
+}
+#testimonial .name {
+  color: #2B2E2E;
+  margin: 0;
+  font-size: .85rem;
+}
+
+#callouts {
+  background-image: url("callout_background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 100%;
+  min-height: 400px;
+  display: table;
+}
+#callouts .callout_inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+#callouts .callout {
+  text-align: center;
+  width: 33.3333%;
+  padding: 1.5rem 2.5%;
+  float: left;
+}
+#callouts .callout h2 {
+  color: white;
+  margin-bottom: 0;
+}
+#callouts .callout p {
+  color: rgba(250, 250, 250, 0.4);
+}
+
+#bottom_cta {
+  text-align: center;
+  padding: 7.5rem 0;
+}
+#bottom_cta h2 {
+  color: #2B2E2E;
+  font-size: 3rem;
+  margin: 0;
+}
+#bottom_cta p {
+  font-size: 1.25rem;
+  margin: 0 0 2.5rem 0;
+  color: #a7a8a8;
+}
