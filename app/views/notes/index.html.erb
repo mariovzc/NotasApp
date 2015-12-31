@@ -2,8 +2,6 @@
   <div class='clearfix' id='notes'>
     <%unless @notes.blank?%>
       <%@notes.each do |note|%>
-        <%= link_to  note.titulo, note %>
-
         <a href="<%=(url_for [note])%>">
         <div class='note'>
           <p class='title'><%=note.titulo %></p>
